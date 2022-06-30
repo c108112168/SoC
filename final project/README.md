@@ -14,7 +14,7 @@
 
 太鼓達人-測試打擊以及計分並顯示於UART介面(https://youtu.be/LQDTlEHlz-w)
 
-太鼓達人-測試通過UART輸入，改變音樂速度
+太鼓達人-測試通過UART輸入，改變音樂速度(https://youtu.be/D5irVRYM4OY)
 
 
 
