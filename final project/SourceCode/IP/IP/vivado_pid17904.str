@@ -1,0 +1,1845 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 17904
+License: Customer
+
+Current time: 	Thu Jun 23 16:54:19 CST 2022
+Time zone: 	Taipei Standard Time (Asia/Taipei)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 6 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/XILINX/2018/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/XILINX/2018/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	USER
+User home directory: C:/Users/USER
+User working directory: D:/project/20220623/IP
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+RDI_BASEROOT: C:/XILINX/2018/Vivado
+HDI_APPROOT: C:/XILINX/2018/Vivado/2018.3
+RDI_DATADIR: C:/XILINX/2018/Vivado/2018.3/data
+RDI_BINDIR: C:/XILINX/2018/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/XILINX/2018/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	D:/project/20220623/IP/vivado.log
+Vivado journal file location: 	D:/project/20220623/IP/vivado.jou
+Engine tmp dir: 	D:/project/20220623/IP/.Xil/Vivado-17904-DESKTOP-0CF1N4U
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/XILINX/2018/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: C:/XILINX/2018/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/XILINX/2018/Vivado/2018.3
+XILINX_SDK: C:/XILINX/2018/SDK/2018.3
+XILINX_VIVADO: C:/XILINX/2018/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/XILINX/2018/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 666 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 69 MB (+70169kb) [00:00:05]
+// [Engine Memory]: 567 MB (+442952kb) [00:00:05]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: D:\project\20220623\IP\edit_taiko_IP_v1_0.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/project/20220623/IP/edit_taiko_IP_v1_0.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/project/20220623/IP/edit_taiko_IP_v1_0.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/project/20220623/IP/taiko_IP_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/XILINX/2018/Vivado/2018.3/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 683 MB. GUI used memory: 46 MB. Current time: 6/23/22, 4:54:21 PM CST
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 94 MB (+21744kb) [00:00:10]
+// [Engine Memory]: 708 MB (+118306kb) [00:00:10]
+// [Engine Memory]: 750 MB (+6398kb) [00:00:12]
+// [GUI Memory]: 106 MB (+7654kb) [00:00:12]
+// WARNING: HEventQueue.dispatchEvent() is taking  2160 ms.
+// Project name: edit_taiko_IP_v1_0; location: D:/project/20220623/IP; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 792.332 ; gain = 192.125 
+dismissDialog("Open Project"); // bx (cp)
+// [Engine Memory]: 793 MB (+6084kb) [00:00:13]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 112 MB (+1195kb) [00:02:51]
+// Elapsed time: 159 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd)]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd), taiko_IP_v1_0_S00_AXI_inst : taiko_IP_v1_0_S00_AXI(arch_imp) (taiko_IP_v1_0_S00_AXI.vhd)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd), taiko_IP_v1_0_S00_AXI_inst : taiko_IP_v1_0_S00_AXI(arch_imp) (taiko_IP_v1_0_S00_AXI.vhd)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 25 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "slv"); // l (aT, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 109, 44); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 109, 44, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 101, 50); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 101, 50, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 62 seconds
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 424, 321); // cl (w, cp)
+// Elapsed time: 59 seconds
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 89, 349); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 89, 349, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 89, 349); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 298, 380); // cl (w, cp)
+// Elapsed time: 34 seconds
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 464, 242); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 58, 237); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 54, 375); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 25, 352); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 133, 399); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 29, 358); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 38, 371); // cl (w, cp)
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 55 MB. Current time: 6/23/22, 5:00:52 PM CST
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd)]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd), taiko_IP_v1_0_S00_AXI_inst : taiko_IP_v1_0_S00_AXI(arch_imp) (taiko_IP_v1_0_S00_AXI.vhd)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd), taiko_IP_v1_0_S00_AXI_inst : taiko_IP_v1_0_S00_AXI(arch_imp) (taiko_IP_v1_0_S00_AXI.vhd)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 31 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd), taiko_IP_v1_0_S00_AXI_inst : taiko_IP_v1_0_S00_AXI(arch_imp) (taiko_IP_v1_0_S00_AXI.vhd)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd), taiko_IP_v1_0_S00_AXI_inst : taiko_IP_v1_0_S00_AXI(arch_imp) (taiko_IP_v1_0_S00_AXI.vhd)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectCodeEditor("taiko_IP_v1_0.vhd", 89, 352); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 89, 352, false, false, false, false, true); // cl (w, cp) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd)]", 1); // B (D, cp)
+// Elapsed time: 924 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 1); // k (j, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 521, 199); // cl (w, cp)
+// Elapsed time: 485 seconds
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 511, 325); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 55 MB. Current time: 6/23/22, 5:30:52 PM CST
+// Elapsed time: 1402 seconds
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 511, 349); // cl (w, cp)
+// Elapsed time: 116 seconds
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 435, 447); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 435, 447, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 459, 413); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 409, 448); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 456, 455); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 444, 445); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 547, 445); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 499, 441); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 507, 439); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 507, 439, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 598, 450); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 452, 444); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 154, 333); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 154, 333, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 429, 159); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 429, 159, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 377, 323); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 464, 282); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 464, 282, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 22 seconds
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 51, 317); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 51, 317, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 70, 342); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 70, 342, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 157, 445); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 157, 445, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 193, 291); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 193, 291, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 194, 276); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 194, 276, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 112, 273); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 192, 279); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 192, 279, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 113, 280); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 113, 280, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 198, 274); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 198, 274, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 106, 282); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 106, 282, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 201, 276); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 201, 276, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 190 seconds
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 90, 252); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 108, 236); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 108, 236, false, false, false, false, true); // cl (w, cp) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 50 MB. Current time: 6/23/22, 6:00:52 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 48 MB. Current time: 6/23/22, 6:30:53 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 48 MB. Current time: 6/23/22, 7:00:53 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 48 MB. Current time: 6/23/22, 7:30:53 PM CST
+// Elapsed time: 6285 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectCodeEditor("taiko_IP_v1_0.vhd", 253, 388); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0.vhd", 'c'); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 48 MB. Current time: 6/23/22, 8:00:54 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 48 MB. Current time: 6/23/22, 8:30:54 PM CST
+// Elapsed time: 3475 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd)]", 1); // B (D, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 367, 83); // cl (w, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd), taiko_IP_v1_0_S00_AXI_inst : taiko_IP_v1_0_S00_AXI(arch_imp) (taiko_IP_v1_0_S00_AXI.vhd)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd), taiko_IP_v1_0_S00_AXI_inst : taiko_IP_v1_0_S00_AXI(arch_imp) (taiko_IP_v1_0_S00_AXI.vhd)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 13 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+dismissFileChooser();
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "taiko"); // Y (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// Tcl Command: 'file mkdir D:/project/20220623/IP/edit_taiko_IP_v1_0.srcs/sources_1/new'
+dismissDialog("Create Source File"); // F (c)
+// Tcl Message: file mkdir D:/project/20220623/IP/edit_taiko_IP_v1_0.srcs/sources_1/new 
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "B_ram"); // Y (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 11 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "music"); // Y (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VSourceFile ; 2 ; B_ram.vhd ; xil_defaultlib ; <Local to Project>", 1, "B_ram.vhd", 2); // bQ (Q, c)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // B (f, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "B_RAM"); // Y (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 46 seconds
+dismissDialog("Add Sources"); // c (cp)
+// Tcl Message: close [ open D:/project/20220623/IP/edit_taiko_IP_v1_0.srcs/sources_1/new/music.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/project/20220623/IP/edit_taiko_IP_v1_0.srcs/sources_1/new/music.vhd 
+// Tcl Message: close [ open D:/project/20220623/IP/edit_taiko_IP_v1_0.srcs/sources_1/new/taiko.vhd w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/project/20220623/IP/edit_taiko_IP_v1_0.srcs/sources_1/new/taiko.vhd 
+// Tcl Message: close [ open D:/project/20220623/IP/edit_taiko_IP_v1_0.srcs/sources_1/new/B_RAM.vhd w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/project/20220623/IP/edit_taiko_IP_v1_0.srcs/sources_1/new/B_RAM.vhd 
+// I (cp): Define Modules: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (C, J)
+dismissDialog("Define Modules"); // I (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, B_RAM.vhd]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, B_RAM.vhd]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, taiko.vhd]", 3, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, taiko.vhd]", 3, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("taiko.vhd", 195, 178); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, B_RAM.vhd]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, B_RAM.vhd]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko(Behavioral) (taiko.vhd)]", 5); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko(Behavioral) (taiko.vhd), music_0 : music(Behavioral) (music.vhd)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko(Behavioral) (taiko.vhd), music_0 : music(Behavioral) (music.vhd)]", 7, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("music.vhd", 404, 244); // cl (w, cp)
+typeControlKey((HResource) null, "music.vhd", 'v'); // cl (w, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, B_RAM.vhd]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, B_RAM.vhd]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("B_RAM.vhd", 454, 234); // cl (w, cp)
+typeControlKey((HResource) null, "B_RAM.vhd", 'v'); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "music.vhd", 5); // k (j, cp)
+selectCodeEditor("music.vhd", 657, 203); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko(Behavioral) (taiko.vhd)]", 3); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko(Behavioral) (taiko.vhd)]", 3); // B (D, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0.vhd", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko.vhd", 4); // k (j, cp)
+selectCodeEditor("taiko.vhd", 30, 467); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0.vhd", 2); // k (j, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd), taiko_IP_v1_0_S00_AXI_inst : taiko_IP_v1_0_S00_AXI(arch_imp) (taiko_IP_v1_0_S00_AXI.vhd)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd), taiko_IP_v1_0_S00_AXI_inst : taiko_IP_v1_0_S00_AXI(arch_imp) (taiko_IP_v1_0_S00_AXI.vhd)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 1); // k (j, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 164, 374); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 21, 314); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 21, 314, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 72, 318); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 72, 318, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 82, 314); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 82, 314, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 28, 310); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko.vhd", 3); // k (j, cp)
+selectCodeEditor("taiko.vhd", 102, 370); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 9, 196); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 157, 220); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 77, 276); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 77, 276, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 75, 68); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 75, 68, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko.vhd", 3); // k (j, cp)
+selectCodeEditor("taiko.vhd", 66, 348); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 54, 235); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 255, 202); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 60, 52); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 60, 52, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 54, 363); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 54, 363, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 61, 68); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 61, 68, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 38, 388); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 38, 388); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 38, 388, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 66, 87); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 66, 87, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 43, 412); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 43, 412, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 70, 108); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 70, 108, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 32, 368); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 32, 368, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 59, 70); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 59, 70, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 50, 388); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 50, 388, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 61, 125); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 61, 125, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 53, 82); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 53, 82, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 187, 392); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 169, 392); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 190, 395); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 164, 392); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 46, 367); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 54, 51); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 54, 51, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 31, 366); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 31, 366, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 56, 86); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 56, 86, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 31, 388); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 31, 388, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 57, 120); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 57, 120, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 41, 404); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 41, 404, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 104, 122); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 104, 122, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 50, 425); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 50, 425, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 185, 444); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 36, 430); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 36, 430, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 129, 427); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 129, 427, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 40, 409); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 40, 409, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 88, 408); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 30, 385); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 30, 385, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 106, 388); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 106, 388, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 29, 369); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 29, 369, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 97, 368); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 97, 368, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 45, 352); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 45, 352, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 118, 355); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 118, 355, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 50, 336); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 50, 336, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 147, 333); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 147, 333, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 48, 311); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 48, 311, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 120, 312); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 34, 293); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 34, 293, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 105, 293); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 105, 293, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 412, 299); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 120, 151); // cl (w, cp)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 110, 334); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 241, 236); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 226, 114); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 236, 372); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 10, 298); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 24 seconds
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 258, 331); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 255, 155); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 114, 351); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 95, 271); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 263, 331); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 450, 319); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 257, 337); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 263, 339); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 277, 274); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0.vhd", 1); // k (j, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 190, 130); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 257, 273); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 232, 226); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 120, 147); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 96, 142); // cl (w, cp)
+// Elapsed time: 18 seconds
+selectCodeEditor("taiko_IP_v1_0.vhd", 368, 258); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 94, 179); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 316, 182); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 309, 194); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 157, 353); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0.vhd", 1); // k (j, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 118, 294); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 367, 285); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 182, 274); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 82, 120); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 344, 213); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 35, 124); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 368, 211); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 293, 139); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 3); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 4, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 4, false, false, false, false, false, true); // B (D, cp) - Double Click
+// bx (cp):  Open IP-XACT File : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: LOAD_FEATURE
+// Tcl Message: ipx::open_ipxact_file {D:\project\20220623\IP\taiko_IP_1.0\component.xml} 
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// WARNING: HEventQueue.dispatchEvent() is taking  1410 ms.
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_OBJECT_CHANGE
+dismissDialog("Open IP-XACT File"); // bx (cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5, false, false, false, false, true); // ar (Q, cp) - Double Click
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // ar (Q, cp)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from Ports and Interfaces Wizard"); // h (M, cp)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// [GUI Memory]: 119 MB (+1745kb) [03:51:18]
+// Tcl Message: ipx::merge_project_changes ports [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-5107] Inferred bus interface 'IRQ' of definition 'xilinx.com:signal:interrupt:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'. INFO: [IP_Flow 19-4728] Bus Interface 'IRQ': Added interface parameter 'SENSITIVITY' with value 'LEVEL_HIGH'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "IRQ ; master ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 1); // M (Q, cp)
+collapseTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "IRQ ; master ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 1); // M (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ar (Q, cp)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cp)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 2 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// bx (cp):  Package IP : addNotify
+// Tcl Message: update_ip_catalog -rebuild -repo_path d:/project/20220623/IP/taiko_IP_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/project/20220623/IP/taiko_IP_1.0' 
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 129 MB (+3666kb) [03:51:37]
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // JButton (C, I)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0.vhd", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 119, 274); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 119, 273, false, false, false, false, true); // cl (w, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0.vhd", 1); // k (j, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 367, 218); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("taiko_IP_v1_0.vhd", 186, 392); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 373, 139); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 193, 255); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 95, 355); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 89, 313); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 43, 330); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 2, 350); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 202, 325); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 117, 348); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 117, 348, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+// Elapsed time: 106 seconds
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 93, 252); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 179, 99); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 179, 99, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 75, 434); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 307, 270); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 226, 199); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 418, 381); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 152, 256); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko.vhd", 3); // k (j, cp)
+selectCodeEditor("taiko.vhd", 422, 170); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 216, 236); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 216, 236, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 189, 201); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 176, 215); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 15, 200); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 15, 200, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 445, 371); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 463, 329); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 54, 331); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 54, 331, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 166, 312); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko.vhd", 3); // k (j, cp)
+// Elapsed time: 20 seconds
+selectCodeEditor("taiko.vhd", 237, 203); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 237, 203, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 100, 221); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 100, 221, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 203, 224); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 203, 224, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 203, 224); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 203, 224, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 293, 102); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 293, 102, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 357, 213); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 870, 243); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("taiko.vhd", 251, 351); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 251, 351, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 190, 232); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 190, 232, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 198, 279); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 198, 279, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 248, 201); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 248, 201, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 15 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "random_clk"); // l (aT, cp)
+selectCodeEditor("taiko.vhd", 239, 250); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 243, 255); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 243, 255, false, false, false, false, true); // cl (w, cp) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "random_clk"); // l (aT, cp)
+selectCodeEditor("taiko.vhd", 227, 257); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 227, 257, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 227, 257); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 282, 234); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 260, 260); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 260, 260, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 180, 244); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 167, 215); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 167, 215, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 179, 78); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 182, 64); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 182, 64, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 183, 336); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 183, 336, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 272, 244); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("taiko.vhd", 190, 333); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 194, 333); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 194, 333, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 218, 141); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 218, 141, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 85, 140); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 85, 140, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 150, 132); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 157, 144); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 157, 144, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 365, 230); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0.vhd", 1); // k (j, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 336, 208); // cl (w, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 4, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 4, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // ar (Q, cp)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from Ports and Interfaces Wizard"); // h (M, cp)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes ports [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'. 
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // ar (Q, cp)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // ar (Q, cp)
+// Elapsed time: 15 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ar (Q, cp)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cp)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 3 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog -rebuild -repo_path d:/project/20220623/IP/taiko_IP_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/project/20220623/IP/taiko_IP_1.0' 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // JButton (C, I)
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 74 MB. Current time: 6/23/22, 9:00:54 PM CST
+// Elapsed time: 531 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // ar (Q, cp)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "speed ;  ;  ;  ;  ; ref ; in ;  ; 1 ; 0 ;  ;  ; std_logic_vector", 5, (String) null, 1, false); // M (Q, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0.vhd", 1); // k (j, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 367, 291); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 4, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 4, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from Ports and Interfaces Wizard"); // h (M, cp)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes ports [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ar (Q, cp)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cp)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 4 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// bx (cp):  Package IP : addNotify
+// Tcl Message: update_ip_catalog -rebuild -repo_path d:/project/20220623/IP/taiko_IP_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/project/20220623/IP/taiko_IP_1.0' 
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // JButton (C, I)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 50 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // ar (Q, cp)
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 2); // M (Q, cp)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 2, "Clock and Reset Signals", 0, true); // M (Q, cp) - Node
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "S00_AXI_RST ; slave ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 3, "S00_AXI_RST", 0, true); // M (Q, cp) - Node
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "S00_AXI_CLK ; slave ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 4, "S00_AXI_CLK", 0, true); // M (Q, cp) - Node
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "rst ; slave ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 5, "rst", 0, true); // M (Q, cp) - Node
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "clk ; slave ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 6, "clk", 0, true); // M (Q, cp) - Node
+// [GUI Memory]: 136 MB (+602kb) [04:09:09]
+// Elapsed time: 822 seconds
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "clk ; slave ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 6); // M (Q, cp)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "clk ;  ;  ;  ;  ; ref ; in ;  ;  ;  ;  ;  ; std_logic", 7, "clk", 0, false); // M (Q, cp)
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "rst ; slave ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 5); // M (Q, cp)
+// [GUI Memory]: 143 MB (+127kb) [04:23:00]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0.vhd", 1); // k (j, cp)
+// WARNING: HEventQueue.dispatchEvent() is taking  1024 ms.
+// Elapsed time: 727 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko.vhd", 3); // k (j, cp)
+selectCodeEditor("taiko.vhd", 66, 141); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 66, 141, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 68 seconds
+selectCodeEditor("taiko.vhd", 261, 198); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 261, 239); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 365, 248); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 126, 181); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 79 MB. Current time: 6/23/22, 9:30:55 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1127 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 76 MB. Current time: 6/23/22, 10:00:56 PM CST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3657 ms. Increasing delay to 10971 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1450 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1151 ms. Decreasing delay to 3151 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3372 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4901 ms. Increasing delay to 14703 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1631 ms. Decreasing delay to 3631 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2346 ms. Increasing delay to 7038 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4205 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3306 ms. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1469 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6196 ms. Increasing delay to 18588 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1518 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1 ms. Decreasing delay to 2001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2016 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 8933 ms. Increasing delay to 26799 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  6118 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4694 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4195 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1550 ms. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1341 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1 ms. Decreasing delay to 2001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  7861 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2511 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2842 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 5106 ms. Increasing delay to 15318 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2051 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1 ms. Decreasing delay to 2001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2861 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2476 ms. Increasing delay to 7428 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4493 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2517 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1358 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1956 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1017 ms.
+// Elapsed time: 3523 seconds
+selectCodeEditor("taiko.vhd", 315, 242); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - taiko_IP", 6); // k (j, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ar (Q, cp)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cp)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 5 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog -rebuild -repo_path d:/project/20220623/IP/taiko_IP_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/project/20220623/IP/taiko_IP_1.0' 
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // JButton (C, I)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 77 MB. Current time: 6/23/22, 10:30:59 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  4038 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4780 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4144 ms. Increasing delay to 12432 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2 ms. Decreasing delay to 2002 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1576 ms. Increasing delay to 4728 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3137 ms. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6655 ms. Increasing delay to 19965 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2938 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3123 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1095 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1653 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1 ms. Decreasing delay to 2001 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 77 MB. Current time: 6/23/22, 11:01:01 PM CST
+// Elapsed time: 2261 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ar (Q, cp)
+// WARNING: HEventQueue.dispatchEvent() is taking  1216 ms.
+// Elapsed time: 892 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+// Elapsed time: 13 seconds
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 96, 310); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 96, 310, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 108, 311); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 139, 286); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko.vhd", 3); // k (j, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("taiko.vhd", 121, 356); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 120, 366); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 120, 366, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 175, 351); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 135, 260); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 135, 260, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 169, 282); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 60, 125); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 60, 125, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 101, 119); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 101, 119, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 161, 118); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 161, 118, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 115, 127); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 115, 127, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 50, 124); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 50, 124, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 93, 116); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 93, 116, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 141, 127); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 141, 127, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 97, 127); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 62, 128); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 62, 128, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 102, 124); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 102, 124, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 64, 123); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 64, 123, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 191, 174); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 54, 185); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 54, 185, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 30, 199); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 38, 180); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectCodeEditor("taiko.vhd", 75, 183); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 16, 182); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 16, 182, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 41, 178); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 2, 195); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 23, 195); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 90, 200); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 24, 216); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 205, 210); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 13, 178); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 13, 178, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 56, 259); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 56, 259, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 280, 259); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 544, 313); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko.vhd", 3); // k (j, cp)
+selectCodeEditor("taiko.vhd", 302, 254); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 30, 313); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 30, 313, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 268, 312); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 50, 316); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 53, 328); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 101, 351); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 115, 349); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 65, 331); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 68, 313); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 106, 309); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 113, 330); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 220, 282); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 98, 308); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 98, 308, false, false, false, false, true); // cl (w, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko.vhd", 3); // k (j, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 46, 175); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 357, 310); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'v'); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0.vhd", 1); // k (j, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 364, 333); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0.vhd", 'v'); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("taiko_IP_v1_0.vhd", 364, 272); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0.vhd", 'v'); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 134, 316); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 75, 293); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 125, 312); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 'c'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0.vhd", 1); // k (j, cp)
+// Elapsed time: 13 seconds
+selectCodeEditor("taiko_IP_v1_0.vhd", 189, 408); // cl (w, cp)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cp)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 167, 258); // cl (w, cp)
+typeControlKey((HResource) null, "taiko_IP_v1_0.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 135, 314); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 72, 276); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 199, 294); // cl (w, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 338, 265); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectCodeEditor("taiko_IP_v1_0_S00_AXI.vhd", 425, 98); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taiko_IP_v1_0(arch_imp) (taiko_IP_v1_0.vhd), taiko_IP_v1_0_S00_AXI_inst : taiko_IP_v1_0_S00_AXI(arch_imp) (taiko_IP_v1_0_S00_AXI.vhd)]", 2, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 4, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 4, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // ar (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // ar (Q, cp)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from Ports and Interfaces Wizard"); // h (M, cp)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes ports [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-3445] Bus interface 'IRQ': Replace port-map physical named 'IRQ' by 'IRQ0'. INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "IRQ ; master ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 1); // M (Q, cp)
+collapseTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "IRQ ; master ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 1); // M (Q, cp)
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "IRQ ; master ;  ; false ;  ;  ;  ;  ;  ;  ;  ;  ; ", 1); // M (Q, cp)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "IRQ1 ;  ;  ;  ;  ; ref ; out ;  ;  ;  ;  ;  ; std_logic", 8, "IRQ1", 0, false); // M (Q, cp)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "IRQ2 ;  ;  ;  ;  ; ref ; out ;  ;  ;  ;  ;  ; std_logic", 9, "IRQ2", 0, false, false, true, false, false, false); // M (Q, cp) - Control Key
+// WARNING: HEventQueue.dispatchEvent() is taking  6167 ms.
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "IRQ1 ;  ;  ;  ;  ; ref ; out ;  ;  ;  ;  ;  ; std_logic", 8, "IRQ1", 0, false); // M (Q, cp)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "IRQ2 ;  ;  ;  ;  ; ref ; out ;  ;  ;  ;  ;  ; std_logic", 9, (String) null, 1, false); // M (Q, cp)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "led ;  ;  ;  ;  ; ref ; out ;  ; 7 ; 0 ;  ;  ; std_logic_vector", 7, (String) null, 1, false); // M (Q, cp)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "IRQ2 ;  ;  ;  ;  ; ref ; out ;  ;  ;  ;  ;  ; std_logic", 9, "IRQ2", 0, false, false, false, false, true, false); // M (Q, cp) - Popup Trigger
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "IRQ1 ;  ;  ;  ;  ; ref ; out ;  ;  ;  ;  ;  ; std_logic", 8, "IRQ1", 0, false, false, false, false, true, false); // M (Q, cp) - Popup Trigger
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "IRQ1 ;  ;  ;  ;  ; ref ; out ;  ;  ;  ;  ;  ; std_logic", 8, "IRQ1", 0, false); // M (Q, cp)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "IRQ2 ;  ;  ;  ;  ; ref ; out ;  ;  ;  ;  ;  ; std_logic", 9, "IRQ2", 0, false, false, true, false, false, false); // M (Q, cp) - Control Key
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "IRQ2 ;  ;  ;  ;  ; ref ; out ;  ;  ;  ;  ;  ; std_logic", 9, "IRQ2", 0, false, false, false, false, true, false); // M (Q, cp) - Popup Trigger
+// Elapsed time: 10 seconds
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "IRQ1 ;  ;  ;  ;  ; ref ; out ;  ;  ;  ;  ;  ; std_logic", 8, "IRQ1", 0, false, false, false, false, true, false); // M (Q, cp) - Popup Trigger
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "IRQ1 ;  ;  ;  ;  ; ref ; out ;  ;  ;  ;  ;  ; std_logic", 8, "IRQ1", 0, false, false, false, false, true, false); // M (Q, cp) - Popup Trigger
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0.vhd", 1); // k (j, cp)
+selectCodeEditor("taiko_IP_v1_0.vhd", 360, 185); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - taiko_IP", 6); // k (j, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ar (Q, cp)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cp)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 6 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // JButton (C, I)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cp)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 7 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog -rebuild -repo_path d:/project/20220623/IP/taiko_IP_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/project/20220623/IP/taiko_IP_1.0' 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // JButton (C, I)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // ar (Q, cp)
+selectButton(PAResourceOtoP.PackagerStepContentPanel_MESSAGES, "1"); // h (r, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-4308] Project file 'd:/project/20220623/IP/edit_taiko_IP_v1_0.srcs/sources_1/new/B_RAM.vhd' is not found in the component files. It will be added automatically when merging sources and repackaging. Please remove the file from the source project if this is not desired.. ]", 3, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [IP_Flow 19-5226] Project source file 'd:/project/20220623/IP/taiko_IP_1.0/component.xml' ignored by IP packager.. ]", 4, true); // ah (Q, cp) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, IP Packager, Ports and Interfaces Wizard, [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.. ]", 7, false); // ah (Q, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // ar (Q, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 84 MB. Current time: 6/23/22, 11:31:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 85 MB. Current time: 6/24/22, 12:01:02 AM CST
+// Elapsed time: 3579 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "music.vhd", 5); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko.vhd", 3); // k (j, cp)
+selectCodeEditor("taiko.vhd", 117, 385); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 117, 385, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 16 seconds
+selectCodeEditor("taiko.vhd", 263, 405); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("taiko.vhd", 69, 233); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 69, 233, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("taiko.vhd", 81, 258); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 81, 258, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 80, 304); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 80, 304, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 82, 296); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 82, 296, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 24 seconds
+selectCodeEditor("taiko.vhd", 106, 313); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 106, 313, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 139, 293); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 143, 294); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 346, 335); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 269, 357); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 264, 345); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 267, 348); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 127, 353); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0.vhd", 1); // k (j, cp)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1799 ms. Increasing delay to 5397 ms.
+// Elapsed time: 92 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko.vhd", 3); // k (j, cp)
+selectCodeEditor("taiko.vhd", 59, 182); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 59, 182, false, false, false, false, true); // cl (w, cp) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 84 MB. Current time: 6/24/22, 12:31:05 AM CST
+selectCodeEditor("taiko.vhd", 106, 182); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 106, 182, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 106, 202); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 106, 202, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 113, 184); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 113, 184, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 112, 202); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 112, 202, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 146, 180); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 154, 177); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 46, 178); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 46, 178, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("taiko.vhd", 205, 281); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 205, 281, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 139, 353); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 139, 353, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 151, 270); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 155, 271, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 263, 279); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - taiko_IP", 6); // k (j, cp)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cp)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 8 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog -rebuild -repo_path d:/project/20220623/IP/taiko_IP_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/project/20220623/IP/taiko_IP_1.0' 
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // JButton (C, I)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 691 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "music.vhd", 5); // k (j, cp)
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko.vhd", 3); // k (j, cp)
+selectCodeEditor("taiko.vhd", 157, 221); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 244 seconds
+selectCodeEditor("taiko.vhd", 126, 180); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 218, 160); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 218, 159); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 218, 159, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 78, 165); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 78, 165, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 44 seconds
+selectCodeEditor("taiko.vhd", 106, 387); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 106, 387); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 106, 387, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 55 seconds
+selectCodeEditor("taiko.vhd", 87, 254); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 154, 250); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 154, 250, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 92, 254); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 92, 254, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 85, 237); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 85, 237, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 86, 251); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 86, 251, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 85, 238); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 85, 238, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 91, 261); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 91, 261, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 84, 245); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 84, 245, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 85, 255); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 85, 255, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 81, 242); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 81, 242, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 80, 253); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 80, 253, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 75, 241); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 75, 241, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 75, 251); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 75, 251, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 74, 240); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 74, 240, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 163 seconds
+selectCodeEditor("taiko.vhd", 55, 236); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 55, 236, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 66, 292); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 66, 292, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 66, 219); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 66, 219, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 106, 205); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 106, 205, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 57, 217); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 57, 217, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 92, 200); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 92, 200, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 25 seconds
+selectCodeEditor("taiko.vhd", 212, 247); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 212, 247, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 109, 254); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 109, 254, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 198, 291); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 198, 291, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 125, 253); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 125, 253, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 121, 85); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 121, 85, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 94, 67); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 94, 67, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 107, 90); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 107, 90, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 105, 69); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 105, 69, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 111, 78); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 111, 78, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 110, 66); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 110, 66, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 111, 83); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 111, 83, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 111, 72); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 111, 72, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 113, 86); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 113, 86, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 96, 60); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 96, 60, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 107, 78); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 107, 78, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 96, 63); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 96, 63, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 101, 77); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 101, 77, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("taiko.vhd", 228, 83); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 228, 83, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 218, 74); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 218, 74, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("taiko.vhd", 263, 67); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 253, 144); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("taiko.vhd", 357, 231); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+// Elapsed time: 144 seconds
+selectCodeEditor("taiko.vhd", 362, 360); // cl (w, cp)
+// Elapsed time: 22 seconds
+selectCodeEditor("taiko.vhd", 124, 315); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 126, 349); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 463, 348); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("taiko.vhd", 459, 283); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - taiko_IP", 6); // k (j, cp)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cp)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 9 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// bx (cp):  Package IP : addNotify
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog -rebuild -repo_path d:/project/20220623/IP/taiko_IP_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/project/20220623/IP/taiko_IP_1.0' 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // JButton (C, I)
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 91 MB. Current time: 6/24/22, 1:01:05 AM CST
+// Elapsed time: 804 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko.vhd", 3); // k (j, cp)
+selectCodeEditor("taiko.vhd", 89, 237); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 89, 256); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 89, 256, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 85, 267); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 85, 267, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 57 seconds
+selectCodeEditor("taiko.vhd", 82, 218); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 82, 218, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 216, 334); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 216, 334, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 216, 334); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 221, 375); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 221, 373); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 221, 373, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 212, 331); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 212, 331, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 69, 178); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 69, 178, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 67, 218); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 67, 218, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 17 seconds
+selectCodeEditor("taiko.vhd", 128, 391); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 130, 336); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 101, 350); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 90, 369); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 130, 364); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 247, 371); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("taiko.vhd", 67, 389); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 67, 389, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 126, 389); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 371, 378); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 14 seconds
+selectCodeEditor("taiko.vhd", 99, 407); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 172, 389); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("taiko.vhd", 64, 389); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 107, 389); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 73, 392); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 73, 392, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 137, 388); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 218, 192); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 95, 217); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 95, 217, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 119, 221); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 119, 221, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "taiko.vhd", 'c'); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 118, 197); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 118, 197, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("taiko.vhd", 165, 28); // cl (w, cp)
+selectCodeEditor("taiko.vhd", 167, 27); // cl (w, cp)
+typeControlKey((HResource) null, "taiko.vhd", 'v'); // cl (w, cp)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - taiko_IP", 6); // k (j, cp)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cp)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 10 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog -rebuild -repo_path d:/project/20220623/IP/taiko_IP_1.0 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/project/20220623/IP/taiko_IP_1.0' 
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // JButton (C, I)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 1:31:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/24/22, 2:01:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 2:31:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/24/22, 3:01:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 3:31:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 4:01:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/24/22, 4:31:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 5:01:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 5:31:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 6:01:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 6:31:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 7:01:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 7:31:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 8:01:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 8:31:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 9:01:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/24/22, 9:31:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 10:01:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 10:31:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 11:01:08 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 11:31:08 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 12:01:08 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/24/22, 12:31:08 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/24/22, 1:01:08 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 1:31:08 PM CST
+// Elapsed time: 45412 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko.vhd", 3); // k (j, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 2:01:09 PM CST
+// Elapsed time: 1290 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0.vhd", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0_S00_AXI.vhd", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taiko_IP_v1_0.vhd", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cp)
+// Elapsed time: 817 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 4, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT, component.xml]", 4, false); // B (D, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - taiko_IP", 6); // k (j, cp)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // ar (Q, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 92 MB. Current time: 6/24/22, 2:31:09 PM CST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3502 ms. Increasing delay to 10506 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2221 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4 ms. Decreasing delay to 2004 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1856 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1003 ms. Increasing delay to 3009 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2147 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3041 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3782 ms. Increasing delay to 11346 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1 ms. Decreasing delay to 2001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3705 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1832 ms. Increasing delay to 5496 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1744 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1496 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4389 ms. Increasing delay to 13167 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1531 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2 ms. Decreasing delay to 2002 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4928 ms. Increasing delay to 14784 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1 ms. Decreasing delay to 2001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  6125 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2055 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1386 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2840 ms. Increasing delay to 8520 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1443 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2018 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1463 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1438 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2383 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 91 MB. Current time: 6/24/22, 3:01:25 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  3393 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2838 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1204 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3862 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1215 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3920 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3716 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2277 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1801 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4823 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4782 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4245 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1305 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2339 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2568 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2593 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2777 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2353 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4117 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1201 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1137 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6704 ms. Increasing delay to 6000 ms.
+// WARNING: HTimer (a Update Status Timer) is taking 6040ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  6045 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1672 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 3:31:11 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 4:01:11 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 4:31:11 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 5:01:11 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 5:31:11 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 6:01:12 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 6:31:12 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 7:01:12 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  2259 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 7:31:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 8:01:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 8:31:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 9:01:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 9:31:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 10:01:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 10:31:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 11:01:15 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/24/22, 11:31:15 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 12:01:15 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 12:31:15 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 1:01:15 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 1:31:15 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 2:01:15 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 2:31:16 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 3:01:16 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 3:31:16 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 4:01:16 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 4:31:16 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 5:01:16 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 5:31:16 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 6:01:16 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 6:31:17 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 7:01:17 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1481 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 7:31:17 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 8:01:17 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 8:31:17 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 9:01:17 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 9:31:17 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 10:01:17 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 10:31:18 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 11:01:18 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 11:31:18 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 12:01:18 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 12:31:18 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 1:01:18 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 1:31:18 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 2:01:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 2:31:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 3:01:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 3:31:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 4:01:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 4:31:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 5:01:20 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 5:31:20 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 6:01:20 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1845 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 6:31:21 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 7:01:22 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 7:31:22 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 8:01:22 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 8:31:22 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 9:01:22 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 9:31:22 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 10:01:22 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 10:31:24 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 11:01:24 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1099 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/25/22, 11:31:24 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 12:01:24 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 12:31:24 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 1:01:24 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 1:31:24 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 2:01:24 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 2:31:25 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 3:01:25 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 3:31:25 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 4:01:25 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 4:31:25 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 5:01:25 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 5:31:25 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 6:01:26 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 6:31:26 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 7:01:26 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 7:31:26 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 8:01:26 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  3245 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 8:31:26 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 9:01:26 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 9:31:26 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 10:01:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 10:31:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 11:01:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 11:31:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 12:01:27 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 12:31:27 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 1:01:27 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 1:31:27 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 2:01:27 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 2:31:28 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 3:01:28 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 3:31:28 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 4:01:28 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 4:31:28 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 5:01:28 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  6113 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 5:31:30 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 6:01:30 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 6:31:34 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 7:01:34 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 7:31:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 8:01:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 8:31:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 9:01:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 9:31:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 10:01:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 10:31:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 11:01:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/26/22, 11:31:41 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 12:01:41 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 12:31:41 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 1:01:41 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 1:31:41 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 2:01:41 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 2:31:41 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 3:01:41 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 3:31:41 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 4:01:41 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 4:31:42 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 5:01:42 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 5:31:42 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 6:01:42 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 6:31:42 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 7:01:42 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 7:31:42 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 8:01:42 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 8:31:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 9:01:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 9:31:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 10:01:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 10:31:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 11:01:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 11:31:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 12:01:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 12:31:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 1:01:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 1:31:44 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 2:01:44 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 2:31:44 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 3:01:44 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 3:31:44 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 4:01:44 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 4:31:44 PM CST
+// WARNING: HTimer (a Update Status Timer) is taking 2310ms to process. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2310 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3759 ms. Increasing delay to 7000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 5:01:48 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 5:31:48 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 6:01:49 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 6:31:49 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 7:01:49 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 7:31:49 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 8:01:50 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  3626 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 8:31:52 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 9:01:52 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 9:31:52 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 10:01:52 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 10:31:52 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 11:01:53 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/27/22, 11:31:53 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 12:01:53 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 12:31:53 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 1:01:53 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 1:31:53 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 2:01:53 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 2:31:53 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 3:01:54 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 3:31:56 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 4:01:56 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 4:31:56 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 5:01:58 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 5:31:57 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 6:01:57 AM CST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1333ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1334 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 6:31:57 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 7:01:57 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 7:31:57 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 8:01:57 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 8:31:57 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 9:01:58 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 9:31:58 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 10:01:58 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 10:31:58 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 11:01:58 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 11:31:58 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 12:01:58 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 12:31:58 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 1:01:59 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 1:31:59 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 2:01:59 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 2:31:59 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 3:02:00 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 3:32:00 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 4:02:00 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 4:32:01 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 5:02:01 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 5:32:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/28/22, 6:02:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/28/22, 6:32:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 7:02:03 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/28/22, 7:32:03 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/28/22, 8:02:03 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 8:32:04 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 9:02:04 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/28/22, 9:32:04 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 10:02:05 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 10:32:05 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/28/22, 11:02:05 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/28/22, 11:32:06 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/29/22, 12:02:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/29/22, 12:32:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 1:02:06 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/29/22, 1:32:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 2:02:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 2:32:07 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/29/22, 3:02:08 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 3:32:08 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/29/22, 4:02:08 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 4:32:09 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 5:02:09 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/29/22, 5:32:09 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 6:02:10 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/29/22, 6:32:10 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/29/22, 7:02:10 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 7:32:11 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/29/22, 8:02:11 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 8:32:11 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 9:02:11 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/29/22, 9:32:12 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 10:02:12 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 10:32:12 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 11:02:13 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/29/22, 11:32:13 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 12:02:13 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 12:32:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/29/22, 1:02:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 1:32:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/29/22, 2:02:15 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 2:32:15 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 3:02:15 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 3:32:16 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 4:02:16 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/29/22, 4:32:16 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 5:02:17 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 5:32:17 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 6:02:17 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/29/22, 6:32:18 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 7:02:18 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 7:32:18 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 8:02:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 8:32:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 9:02:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 9:32:19 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/29/22, 10:02:20 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 10:32:20 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/29/22, 11:02:20 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/29/22, 11:32:21 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 12:02:21 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 12:32:21 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/30/22, 1:02:22 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/30/22, 1:32:22 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 2:02:22 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/30/22, 2:32:22 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/30/22, 3:02:23 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 3:32:23 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 4:02:23 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 4:32:24 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/30/22, 5:02:24 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/30/22, 5:32:24 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 6:02:25 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 6:32:25 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/30/22, 7:02:25 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/30/22, 7:32:26 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/30/22, 8:02:26 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 8:32:26 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 9:02:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/30/22, 9:32:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/30/22, 10:02:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 10:32:28 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/30/22, 11:02:28 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 11:32:28 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 12:02:28 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/30/22, 12:32:29 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 1:02:29 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/30/22, 1:32:29 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 2:02:30 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 2:32:30 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/30/22, 3:02:30 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 3:32:31 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 4:02:31 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 4:32:31 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 5:02:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/30/22, 5:32:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 6:02:32 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 6:32:33 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 7:02:33 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/30/22, 7:32:33 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 90 MB. Current time: 6/30/22, 8:02:34 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 821 MB. GUI used memory: 89 MB. Current time: 6/30/22, 8:32:34 PM CST
