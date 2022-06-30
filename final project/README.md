@@ -22,7 +22,7 @@
 
 設定:於UART設定(0~3)(0為最快)
 
-![image](https://user-images.githubusercontent.com/76207012/176700165-b5440ecf-bfce-4c94-a582-b62a2db9a3ee.png)
+
 
 
 #測試影片(請開啟CC字幕)
