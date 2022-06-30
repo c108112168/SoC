@@ -22,6 +22,9 @@
 
 設定:於UART設定(0~3)(0為最快)
 
+![image](https://user-images.githubusercontent.com/76207012/176700866-5c483f5d-8f05-40f0-a26a-a5dda697ad10.png)
+![image](https://user-images.githubusercontent.com/76207012/176700910-9bad1863-50b7-47b7-b38c-9ae179fe7a87.png)
+
 ------- 
 
 
